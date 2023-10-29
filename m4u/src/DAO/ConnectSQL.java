@@ -31,7 +31,7 @@ public class ConnectSQL {
     public static void open() {
         try {
             //B1. Ket noi CSDL
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "12345678");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/m4u", "root", "");
         } catch (SQLException ex) {
             Logger.getLogger(ConnectSQL.class.getName()).log(Level.SEVERE, null, ex);
         }
